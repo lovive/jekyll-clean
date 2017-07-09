@@ -7,14 +7,13 @@ comments: true
 
 1: install scrapy on Mac
 
-	'''
+	```python
 	sudo pip install scrapy 
-	'''
+	```
 
-	'''
+	```python
 	scrapy --version  #test wherther install successfully
-
-	'''
+	```
 
 2: The steps to constuct a scrapy project
 
