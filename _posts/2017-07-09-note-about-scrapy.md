@@ -47,4 +47,6 @@ e. excute the code
 scrapy crawl project_name_spider 
 ```
 
+The corresponding project code is on https://github.com/lovive/PythonBasic/tree/master/python_study/scrapy_study/air_quality.
+
 
