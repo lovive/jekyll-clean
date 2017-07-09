@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: My blog
-description: A jekyll theme
+description: Blog for notes
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://lovive.github.io/zmgwb
