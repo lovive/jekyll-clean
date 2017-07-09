@@ -7,13 +7,21 @@ comments: true
 
 1: install scrapy on Mac
 
-	```python
-	sudo pip install scrapy 
-	```
+```
+sudo pip install scrapy 
+```
 
-	```python
-	scrapy --version  #test wherther install successfully
-	```
+```python
+scrapy --version  #test wherther install successfully
+```
+
+```python
+import random
+
+# Roll the die
+roll = random.randint(1, 20)
+print('You rolled a %d.' % roll)
+```
 
 2: The steps to constuct a scrapy project
 
