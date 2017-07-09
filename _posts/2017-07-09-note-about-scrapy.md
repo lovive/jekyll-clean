@@ -7,14 +7,14 @@ comments: true
 
 1: install scrapy on Mac
 
-	```
+	'''
 	sudo pip install scrapy 
-	```
+	'''
 
-	```
+	'''
 	scrapy --version  #test wherther install successfully
 
-	```
+	'''
 
 2: The steps to constuct a scrapy project
 
@@ -24,9 +24,9 @@ a. build the project
 
 	// code will generate some files
 
-	```
+	'''
 	scrapy genspider project_name_spider https://www.google.com
-	```
+	'''
 
 	// generated a standarlization modula scrapy file
 
@@ -40,14 +40,14 @@ d. write the code in Pipeline.py file and configuration this file in setting.py
 
 	delete the annotation before the following code in setting file
 
-	```
+	'''
 		TEM_PIPELINES = {'projec.pipelines.ProjecItemCsvPipline':300}
-	```
+	'''
 
 e. excute the code
 
-	```
+	'''
 	scrapy crawl project_name_spider 
-	```
+	'''
 
 
