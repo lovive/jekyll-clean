@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The data visualization tools using python"
-date: 2017-07-19 16:25:06 -0700
+date: 2017-07-19 16:27:06 -0701
 comments: true
 ---
 
