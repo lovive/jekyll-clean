@@ -95,16 +95,8 @@ df.dropna(how='ALL')
 df.fillna(0)
 df.fillna({1:0,2:0.5}) # set the first nan as 0, the seconde as 0.5
 df.fillna(method='ffill') # set the value of before to the next nan value
-
 ```
 
-```python
-import random
-
-# Roll the die
-roll = random.randint(1, 20)
-print('You rolled a %d.' % roll)
-```
 
 
 
