@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some basic introduction to pandas and an example to set the parameter in a figure ploted by matplotlib in python"
-date: 2017-07-21 22:28:06 -001
+date: 2017-07-21 22:28:06 -602
 comments: true
 ---
 
