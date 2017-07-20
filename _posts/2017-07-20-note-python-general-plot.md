@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some basic introduction to pandas and an example to set the parameter in a figure ploted by matplotlib in python"
+title: "Some basic introduction to pandas and an example in python"
 date: 2017-07-21 22:28:06 -602
 comments: true
 ---
@@ -67,7 +67,7 @@ plt.show()
 ```
 Here used the pandas to import data, show some notes about the pandas comments
 
-```
+```python
 df_obj = DataFrame() # construct the dataFrame object
 df_obj.dtypes # obtain the data types
 df_obj['columns'].astype(int)# change the data types form one column
@@ -96,6 +96,14 @@ df.fillna(0)
 df.fillna({1:0,2:0.5}) # set the first nan as 0, the seconde as 0.5
 df.fillna(method='ffill') # set the value of before to the next nan value
 
+```
+
+```python
+import random
+
+# Roll the die
+roll = random.randint(1, 20)
+print('You rolled a %d.' % roll)
 ```
 
 
