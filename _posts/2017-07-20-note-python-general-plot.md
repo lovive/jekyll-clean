@@ -7,7 +7,7 @@ comments: true
 
 Note for some basic code to plot the histogram for different data using matplotlib.pyplot 
 
-```
+```python
 from numpy.random import beta
 import matplotlib.pyplot as plt
 import pandas as pd
