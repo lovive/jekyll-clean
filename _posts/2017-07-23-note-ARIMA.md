@@ -7,19 +7,13 @@ comments: true
 
 Note for  time series analysis model autoregressive moving average(ARMA) or autoregressive integrated moving average (ARIMA)
 
-1). Autocorrelation: also known as serial correlation, is the correlation of a signal with a delayed copy of itself as a function of delay, it is the 
+1). Autocorrelation: also known as serial correlation, is the correlation of a signal with a delayed copy of itself as a function of delay, it is the similarity between observations as a function of the time lag between them. the Analysis of autocorrelation is a mathematical tool for finding repeating patterns, such as the presence of a periodic signal obscured by noise, or identifying the missing fundamental frequency in a signal implied by its harmonic  frequencies. The equation is following:
 
-similarity between observations as a function of the time lag between them. the Analysis of autocorrelation is a mathematical tool for finding repeating
+{{ site.baseurl}}/images/Autocorrelation.png
 
-patterns, such as the presence of a periodic signal obscured by noise, or identifying the missing fundamental frequency in a signal implied by its 
+2). Partial autocorrelation (PACF): gives the partial correlation of a time series with its own lagged values, controlling for the values of the time series at all shorter lags. The equation as following:
 
-harmonic  frequencies.
-
-({{ site.baseurl}}/images/Autocorrelation.png)
-
-2). Partial autocorrelation (PACF): gives the partial correlation of a time series with its own lagged values, controlling for the values of the time series at all shorter lags. 
-
-({{ site.baseurl}}/images/PACF.png)
+{{ site.baseurl}}/images/PACF.png
 
 Modeling approach:
 
